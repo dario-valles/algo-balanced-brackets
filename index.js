@@ -63,10 +63,7 @@ const balanced = str => {
 
     
   }
-  
-console.log(bracketsOpened, 'brackets');
-console.log(bracesOpened, 'braces');
-console.log(arrayBrackets, 'array');
+
 
 if (bracketsOpened !== 0 |bracesOpened !==0 | arrayBrackets!==0) return false;
 return true;
