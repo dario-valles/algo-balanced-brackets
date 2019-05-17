@@ -12,7 +12,7 @@
 
 Fork this repo and then `git clone` your forked repo to your computer.
 Once you're happy with your solution, `git push` and submit a pull request at
-`/github.com/dario-valles/algo-balanced-brackets-.git`.
+`https://github.com/dario-valles/algo-balanced-brackets`.
 
 ## 2. Challenge
 Write a function called `balanced` that accepts 1 string content on string will only contain the following char acters **'{}[]()'**.  The function should return true or false if the string has blanaced characters
