@@ -19,5 +19,6 @@ describe('Basic Tests', function() {
   it('should return false if is not in order', () => {
     balanced('[(([{}]{][]}))]').should.be.false;
     balanced(')(').should.be.false;
+    balanced('[{}[]()[()])(]').should.be.false;
   });
 });
