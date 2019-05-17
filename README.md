@@ -19,11 +19,7 @@ Write a function called `balanced` that accepts 1 string content on string will 
 
 e.g. `balanced('((({}[])))') ===> true`
 
-<<<<<<< HEAD
-Consider all brackets, parenthesis and curly braces should be in order for example '(}{)' this should return false but '({})' should return true
-=======
 Consider all brackets, parenthesis and curly braces should be i order for example '(}{)' should return false but '({})' should return true
->>>>>>> e2f734f37d11d71307389bf38e0358d773e69f5d
 
 
 ### 2.1. Examples
