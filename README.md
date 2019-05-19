@@ -1,6 +1,6 @@
-# Algo Rithms Challenge // Absolute value difference
+# Algo Rithms Challenge // Balanced Brackets
 
-- [Algo Rithms Challenge // Absolute value difference](#algo-rithms-challenge--absolute-value-difference)
+- [Algo Rithms Challenge // Balanced Brackets]
   - [1. Getting started](#1-getting-started)
   - [2. Challenge](#2-challenge)
     - [2.1. Examples](#21-examples)
@@ -8,7 +8,7 @@
     - [2.3. Submitting your solution](#23-submitting-your-solution)
 
 ## 1. Getting started
-  `/github.com/dario-valles/algo-balanced-brackets-.git`
+  `https://github.com/dario-valles/algo-balanced-brackets-.git`
 
 Fork this repo and then `git clone` your forked repo to your computer.
 Once you're happy with your solution, `git push` and submit a pull request at
