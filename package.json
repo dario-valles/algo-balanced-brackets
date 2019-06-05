@@ -1,7 +1,7 @@
 {
-  "name": "algo-max-min-arr-diff",
+  "name": "algo-balanced-brackets",
   "version": "1.0.0",
-  "description": "A PG13 toy problem for the Algo Rithms night",
+  "description": "A toy problem for the Algo Rithms night",
   "main": "index.js",
   "scripts": {
     "test": "mocha"
