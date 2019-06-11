@@ -29,7 +29,21 @@
 // changes to your forked repo and submit a pull request.
 
 const balanced = str => {
-  // your code here. Enjoy the music.
+  let curly = 0;
+  let bracket = 0;
+  let paran = 0;
+  str = str.split('');
+  for (let i = 0; i < str.length; i++) {
+    if (str[i] === '{') curly++;
+    if (str[i] === '}') curly--;
+    if (str[i] === '[') bracket++;
+    if (str[i] === ']') bracket--;
+    if (str[i] === '(') paran++;
+    if (str[i] === ')') paran--;
+    if (curly < 0 || bracket < 0 || paran < 0) return false;
+  }
+  if (curly === 0 && bracket === 0 && paran === 0)  return true;
+  else return false;
 };
 
 module.exports = balanced;
