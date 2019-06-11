@@ -30,6 +30,46 @@
 
 const balanced = str => {
   // your code here. Enjoy the music.
+  let bracketsOpened = 0;
+  let bracesOpened = 0;
+  let arrayBrackets = 0;
+
+  bracketsOrBraces = str.match(/[\[(){}\]]/g);
+  for (i =0 ; i<bracketsOrBraces.length; i++){
+      
+      if (bracketsOrBraces[i]==='(' ){
+      if (bracketsOpened>=0) {
+      bracketsOpened++;}
+      } 
+      else if (bracketsOrBraces[i]==='{') {
+      if (bracesOpened>=0) {
+        bracesOpened++;}
+      }
+      else if (bracketsOrBraces[i]==='['){
+      if (arrayBrackets>=0) {
+        arrayBrackets++;
+      }  
+      }
+      else if (bracketsOrBraces[i]==='}') {
+        bracesOpened--;
+        }
+      else if (bracketsOrBraces[i]===']'){
+        arrayBrackets--;
+      }
+      else if (bracketsOrBraces[i]===')'){
+
+        bracketsOpened--;
+      }
+
+    
+  }
+
+
+if (bracketsOpened !== 0 |bracesOpened !==0 | arrayBrackets!==0) return false;
+return true;
+
+  
+  
 };
 
 module.exports = balanced;
